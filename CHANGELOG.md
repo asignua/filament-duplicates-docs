@@ -2,6 +2,10 @@
 
 All notable changes to `asignua/filament-duplicates` are documented here.
 
+## 1.0.3 - 2026-10-25
+
+- Fixed: Filament 5.10 lets `HasName::getFilamentName()` return `Htmlable`; the merge dialog's user names go through `Filament::getUserName()` (plain text), so such a user no longer throws a `TypeError` (and CI's phpstan is green again).
+
 ## 1.0.2 - 2026-10-12
 
 - Licence terms (`LICENSE.md`): the commercial licence that comes with an Anystack licence key; prices in the README.
