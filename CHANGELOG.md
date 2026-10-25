@@ -2,6 +2,10 @@
 
 All notable changes to `asignua/filament-duplicates` are documented here.
 
+## 1.0.4 - 2026-10-25
+
+- Screenshots and the cover carry the «made in asign» mark; README shows the Stand With Ukraine badge.
+
 ## 1.0.3 - 2026-10-25
 
 - Fixed: Filament 5.10 lets `HasName::getFilamentName()` return `Htmlable`; the merge dialog's user names go through `Filament::getUserName()` (plain text), so such a user no longer throws a `TypeError` (and CI's phpstan is green again).
