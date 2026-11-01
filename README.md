@@ -405,6 +405,15 @@ vendor/bin/pint --test
 
 See [CHANGELOG.md](CHANGELOG.md).
 
+## More plugins by asign
+
+- [Activity Log Plus](https://filamentphp.com/plugins/asign-activity-log-plus) — audit trail and history for models
+- [Record Lock](https://filamentphp.com/plugins/asign-record-lock) — stop two people editing the same record
+- [IBAN](https://filamentphp.com/plugins/asign-iban) — IBAN input and validation
+- [Themes](https://filamentphp.com/plugins/asign-themes) — per-user and per-panel colour themes
+
+All plugins: <https://filamentphp.com/plugins?q=asign>
+
 ## Licence
 
 Proprietary. See [LICENSE.md](https://github.com/asignua/filament-duplicates-docs/blob/main/LICENSE.md).
